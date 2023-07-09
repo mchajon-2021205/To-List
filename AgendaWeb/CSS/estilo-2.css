@@ -1,0 +1,55 @@
+
+/* Tabla */
+
+.tabla-2{
+    margin: 10%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-collapse: collapse;
+    transition: 1s;
+}
+
+thead{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+th{
+    padding: 2vh 6vw;
+    text-transform: uppercase;
+}
+ 
+td{
+    text-align: center;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+/*     padding-left: 5vw ;
+ */    border-bottom: solid 1px;
+ transition: 1s;
+} 
+
+.h:hover{
+    font-size: 1.3rem;
+    /* padding: 2rem; */
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

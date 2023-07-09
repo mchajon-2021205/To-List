@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css.css"> -->
+    <link rel="icon" href="./img/logo.png">
+
+    <title>To List</title>
+</head>
+<style>
+     .tabla{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+     tr{
+       margin-right: 10rem;
+    } 
+
+
+</style>
+<body>
+
+
+    <div class="center">
+        <nav class="nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+              <img src="./img/tarjeta.png" alt="Avatar Logo" style="width:30px; height: 30px;" class="rounded-pill"> 
+            </a>
+            <ul class="dropdown-menu">
+              <li id="datoooo">Carlos</li>
+              <li id="gmail">carlos@gmail.com</li>
+            </ul>
+          </li>
+            <a class="nav-link" href="./index.html"  style=" padding-right: 5px;">👤Contactos</a>
+            <a class="nav-link" href="./favoritos.html"  style=" padding-right: 5px;">✨Favoritos</a>
+          <a class="nav-link" href="./toList.html">📋Tolist</a>
+        </nav>
+      </div>
+
+
+    <div class="input-group mb-3" style="margin: 1rem;">
+        <input type="text" id="dato1" class="form-control" placeholder="Priopidad" style="margin-left: 4rem;" id="prioridad">
+        <input type="text" id="dato2" class="form-control" placeholder="Numero" id="numero">
+        <input type="button" value="Agregar" onclick="ramdom()" class="btn btn-success" type="submit" style="margin-right: 4rem;" >
+     </div>
+
+
+    
+
+    <div >
+    <table id="agregar" class="tabla table table-borderless"  >
+         <tr>
+            <th>Prioridades</th>
+            <th>Importancia</th>
+            
+        </tr> 
+        
+    </table>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
